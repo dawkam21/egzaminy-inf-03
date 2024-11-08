@@ -1,6 +1,0 @@
-kw1 - INSERT INTO `logowanie`(`id`, `nick`, `haslo`) VALUES (3,'Jeremi','Jer123');
-kw2 - SELECT CEIL(AVG(rokUr)) as `Średni rok urodzenia` FROM uczestnicy;
-kw3 - SELECT uczestnicy.imie, uczestnicy.nazwisko, logowanie.nick, logowanie.haslo FROM uczestnicy
-JOIN logowanie ON uczestnicy.logowanie_id = logowanie.id WHERE uczestnicy.imie LIKE 'J%';
-kw4 - CREATE USER uczestnik@localhost IDENTIFIED BY 'Ucz123&';
-kw5 - GRANT SELECT, UPDATE ON chat.uczestnicy TO uczestnik@localhost;
