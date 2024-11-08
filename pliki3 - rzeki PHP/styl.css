@@ -1,0 +1,70 @@
+* {
+    font-family: Georgia;
+}
+
+#header1 {
+    background-color: navy;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+
+#header2 {
+    background-color: navy;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    float: right;
+}
+
+.menu {
+    background-color: navy;
+    padding: 20px;
+}
+
+.radio {
+    color: silver;
+    margin: 50px;
+}
+
+.radio:hover {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.left {
+    background-color: azure;
+    height: 550px;
+    width: 70%;
+    float: left;
+}
+
+.right {
+    background-color: azure;
+    height: 550px;
+    width: 30%;
+    float: left;
+}
+
+footer {
+    background-color: navy;
+    color: #fff;
+}
+
+table {
+    border: solid 1px navy;
+    margin: auto;
+    width: 70%;
+}
+
+tr:hover {
+    background-color: skyblue;
+}
+
+.right img {
+    width: 90%;
+}

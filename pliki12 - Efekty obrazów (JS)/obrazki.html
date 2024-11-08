@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efekty obrazu</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h2>Efekty na obrazach</h2>
+    </header>
+    <section class="block1">
+        <img src="pszczola.jpg" alt="pszczoła na fioletowym kwiatku" id="bee"><br>
+        <input type="radio" name="bckground" id="Blur">Blur<br>
+        <input type="radio" name="bckground" id="Sepia">Sepia<br>
+        <input type="radio" name="bckground" id="Negatyw">Negatyw<br>
+        <input type="button" value="Zastosuj" onclick="f1()">
+    </section>
+    <section class="block2">
+        <img src="pomarancza.jpg" alt="drzewo pomarańczy" id="orange"><br>
+        <input type="button" value="Kolorowy" id="clrs" onclick="f2()">
+        <input type="button" value="Czarno-biały" id="nonClrs" onclick="f3()">
+    </section>
+    <section class="block3">
+        <img src="owoce.jpg" alt="Kosz pełen owoców" id="fruits"><br>
+        <input type="range" name="progress" id="progress" min="0" max="100" value="100"><br>
+        <input type="button" value="Zastosuj" onclick="f4()">
+    </section>
+    <section class="block4">
+        <img src="zolw.jpg" alt="Żółw w wodzie" id="turtle"><br>
+        <input type="range" name="progress2" id="progress2" min="0" max="250"><br>
+        <input type="button" value="Zastosuj" onclick="f5()">
+    </section>
+    <footer>
+        <p><a href="http://www.css.com/" target="_blank">Zobacz inne efekty obrazu</a></p>
+        <p>Stronę wykonał: XXXXXXXXXXX</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

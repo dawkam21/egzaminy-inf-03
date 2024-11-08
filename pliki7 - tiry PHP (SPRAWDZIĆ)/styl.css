@@ -1,0 +1,63 @@
+* {
+    font-family: Tahoma;
+}
+
+.header1 {
+    background-color: #519657;
+    color: #fff;
+    text-align: center;
+    height: 150px;
+    width: 70%;
+    float: left;
+}
+
+.header2 {
+    background-color: #519657;
+    color: #fff;
+    text-align: center;
+    height: 150px;
+    width: 30%;
+    float: left;
+}
+
+.leftBlock, .rightBlock {
+    width: 25%;
+    background-color: #e1e1e1;
+    height: 450px;
+    float: left;
+}
+
+.mainBlock {
+    width: 50%;
+    background-color: #e1e1e1;
+    height: 450px;
+    overflow: auto;
+    float: left;
+}
+
+footer {
+    background-color: #80c683;
+    text-align: center;
+    clear: both;
+}
+
+.obraz2 {
+    width: 100%;
+    padding: 100px 0;
+}
+
+table {
+    border: solid 1px #80c683;
+}
+
+td {
+    padding: 2px;
+}
+
+tr:hover {
+    background-color: #80c683;
+}
+
+tbody>tr:last-child {
+    background-color: red;
+}

@@ -1,0 +1,4 @@
+kw1 - SELECT tytul, plik FROM zdjecia WHERE zdjecia.polubienia>=100;
+kw2 - SELECT zdjecia.plik, zdjecia.tytul, zdjecia.polubienia, autorzy.imie, autorzy.nazwisko FROM zdjecia JOIN autorzy ON zdjecia.autorzy_id = autorzy.id ORDER BY autorzy.nazwisko ASC;
+kw3 - SELECT autorzy.imie, COUNT(zdjecia.autorzy_id) FROM zdjecia JOIN autorzy ON zdjecia.autorzy_id = autorzy.id GROUP BY autorzy_id;
+kw4 - ALTER TABLE zdjecia ADD rozmiarPliku INT NOT NULL;

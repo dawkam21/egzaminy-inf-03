@@ -1,0 +1,4 @@
+kw1 - "SELECT osoby.imie, osoby.nazwisko FROM osoby WHERE osoby.dataUr > "2000-00-00";"
+kw2 - "SELECT DISTINCT miasto FROM `adresy` ORDER BY `adresy`.`miasto` ASC;"
+kw3 - "SELECT osoby.imie, osoby.nazwisko, telefony.numer FROM osoby JOIN telefony ON osoby.id = telefony.Osoby_id;"
+kw4 - "ALTER TABLE adresy ADD numerMieszkania int AFTER numer;"

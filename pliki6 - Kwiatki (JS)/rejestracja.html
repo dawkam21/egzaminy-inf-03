@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h1>Formularz rejestracyjny konferencji <b><i>Nasze Kwiaty</i></b></h1>
+    </header>
+    <main>
+        <form action="">
+            <section class="formBlock1">
+                <h2>Dane osobowe</h2>
+                <input type="text" name="" id="name" placeholder="Wpisz imię..." required>
+                <input type="text" name="" id="lastName" placeholder="Wpisz nazwisko..." required>
+                <input type="button" value="Następna karta" id="cardBtn" onclick="nextCard()">
+            </section>
+            <section class="formBlock2">
+                <h2>Dane kontaktowe</h2>
+                <input type="email" name="" id="email" placeholder="Twój e-mail...">
+                <input type="number" name="" id="tel" placeholder="Twój numer telefonu..." length="9">
+                <input type="button" value="Następna karta" id="cardBtn2" onclick="nextCard2()">
+            </section>
+            <section class="formBlock3">
+                <h2>Hasło do logowania</h2>
+                <input type="password" name="" id="pass" placeholder="Podaj hasło">
+                <input type="password" name="" id="confirmPass" placeholder="Powtórz hasło">
+                <input type="button" value="Zatwierdź" id="passBtn" onclick="passwords()">
+            </section>
+        </form>
+    </main>
+    <footer>
+        <section class="footer1">
+            <iframe src="motyl.mp4" frameborder="0" alt="Przeglądarka nie obsługuje tego formatu"></iframe>
+        </section>
+        <section class="footer2">
+            <h3>Plan konferencji</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>9:00 - 12:00</td>
+                        <td>Pielęgnacja roślin</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 15:00</td>
+                        <td>Targi kwiatowe</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="footer3">
+            <p><a href="https://kwiaty.pl/">Internetowa kwiaciarnia</a></p>
+        </section>
+        <section class="footer4">
+            <p>Formularz wykonał: XXXXXXXXXXX</p>
+        </section>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: linen;
+}
+
+header {
+    background-color: steelblue;
+    color: #fff;
+    text-align: center;
+    width: 73%;
+    height: 80px;
+    float: right;
+}
+
+aside {
+    background-color: steelblue;
+    color: #fff;
+    text-align: center;
+    width: 25%;
+    height: 510px;
+    margin: 0 1%;
+    box-shadow: 4px 4px 5px dimgray;
+    float: left;
+}
+
+footer {
+    background-color: steelblue;
+    color: #fff;
+    text-align: center;
+    clear: both;
+}
+
+main {
+    width: 73%;
+    height: 400px;
+    float: right;
+}
+
+button {
+    background-color: steelblue;
+    color: #fff;
+    width: 20%;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 130%;
+    border: none;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+input[type="submit"] {
+    background-color: steelblue;
+    color: #fff;
+    width: 20%;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 130%;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: navy;
+}
+
+.customer {
+    background-color: lightblue;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+.adress {
+    background-color: lightblue;
+    margin-right: 80px;
+    padding: 10px;
+    display: none;
+}
+
+.contact {
+    background-color: lightblue;
+    margin-right: 80px;
+    padding: 10px;
+    display: none;
+}
+
+.progress {
+    background-color: lightgray;
+    width: 73%;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.empty {
+    background-color: navy;
+    width: 4%;
+    height: 30px;
+}
+
+table {
+    width: 100%;
+    border: dotted 1px navy;
+}

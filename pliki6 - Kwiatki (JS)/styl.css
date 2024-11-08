@@ -1,0 +1,80 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: #c2185b;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    background-image: url("tulipany.jpg");
+    height: 500px;
+}
+
+.footer1, .footer2, .footer3, .footer4 {
+    background-color: #C2185B;
+    color: #fff;
+    width: 25%;
+    height: 240px;
+    float: left;
+}
+
+.formBlock1 {
+    background-color: #fce4ec;
+    width: 25%;
+    height: 300px;
+    margin: 25px;
+    padding: 16px;
+    float: left;
+}
+
+.formBlock2 {
+    background-color: #fce4ec;
+    width: 25%;
+    height: 300px;
+    margin: 25px;
+    padding: 16px;
+    float: left;
+    visibility: hidden;
+}
+
+.formBlock3 {
+    background-color: #fce4ec;
+    width: 25%;
+    height: 300px;
+    margin: 25px;
+    padding: 16px;
+    float: left;
+    visibility: hidden;
+}
+
+p {
+    padding-top: 20px;
+}
+
+a {
+    color: #fff;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+}
+
+input[type="button"] {
+    background-color: #c2185b;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 60%;
+    padding: 20px;
+    border: none;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}

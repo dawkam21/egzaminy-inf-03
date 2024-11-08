@@ -1,0 +1,74 @@
+* {
+    font-family: Georgia;
+    color: #fff;
+}
+
+header, footer {
+    background-color: maroon;
+    text-align: center;
+    padding: 2px;
+}
+
+.left {
+    background-color: lightsalmon;
+    height: 527px;
+    width: 15%;
+    float: left;
+}
+
+.mid {
+    background-color: lightsalmon;
+    height: 527px;
+    width: 70%;
+    float: left;
+}
+
+.mid img {
+    display: block;
+    margin: auto;
+    padding-top: 45px;
+    transform: scale(1);
+}
+
+.mid img:hover {
+    transform: scale(1.2);
+    transition: transform 5s;
+}
+
+.right {
+    background-color: lightsalmon;
+    height: 527px;
+    width: 15%;
+    float: left;
+}
+
+button {
+    background-color: lightsalmon;
+    color: maroon;
+    border: none;
+    font-size: 400%;
+    display: block;
+    margin: auto;
+    padding-top: 210px;
+}
+
+.thumbnail img {
+    height: 70px; /* Wysokość */
+    animation: thumbnailAnimation 4s forwards; /* Animacja trwa 4 sekundy */
+}
+
+.thumbnail {
+    background-color: maroon; /* Kolor tła */
+    height: 70px; /* Wysokość */
+    clear: both;
+}
+
+/* Kluczowe klatki animacji dla miniatur */
+@keyframes thumbnailAnimation {
+    0% {
+        padding-left: 50px; /* Stan początkowy */
+    }
+    100% {
+        padding-left: 0; /* Stan końcowy */
+    }
+}
