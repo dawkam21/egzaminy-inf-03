@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma IT</title>
+    <link rel="stylesheet" href="styl.css">
+    
+</head>
+<body>
+    <section class="container">
+        <section class="headerLogo">
+            <img src="logo.png" alt="firma it">
+        </section>
+        <section class="headerMenu">
+            <a href="index.html">Strona Główna</a>
+            <a href="uslugi.html">Usługi</a>
+            <a href="kontakt.html">Kontakt</a>
+        </section>
+        <header>
+            <img src="animacja.gif" alt="Usługi informatyczne">
+        </header>
+        <main>
+            <h2>Kontakt</h2>
+            <table>
+                <tr>
+                    <td>Imię: </td>
+                    <td><input type="text" name="" id="name"></td>
+                </tr>
+                <tr>
+                    <td>Nazwisko: </td>
+                    <td><input type="text" name="" id="lastName"></td>
+                </tr>
+                <tr>
+                    <td>E-mail: </td>
+                    <td><input type="email" name="" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Zgłoszenie: </td>
+                    <td><textarea name="" id="annoucement" cols="40" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="" id="check">Zapoznałem się z regulaminem</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="reset" name="" id="reset" value="Resetuj"> <input type="submit" value="Prześlij" onclick="sbmt()"></td>
+                </tr>
+            </table>
+            <hr>
+            <p id="full"></p>
+        </main>
+        <footer>
+            Autor strony: XXXXXXXXXX
+        </footer>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

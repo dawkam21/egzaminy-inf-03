@@ -1,0 +1,61 @@
+body {
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.headerLogo {
+    background-color: lightblue;
+    height: 100px;
+    width: 50%;
+    padding: 10px 0;
+    float: left;
+}
+
+.headerMenu {
+    background-color: lightblue;
+    height: 100px;
+    width: 50%;
+    padding: 10px 0;
+    float: left;
+}
+
+header {
+    background-color: #dddddd;
+    height: 200px;
+    clear: both;
+}
+
+main {
+    color: navy;
+    margin: 50px;
+    height: 400px;
+}
+
+footer {
+    text-align: right;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+input[type='submit'], input[type='reset'] {
+    background-color: lightblue;
+    color: navy;
+}
+
+.headerMenu a {
+    color: navy;
+    font-size: 150%;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+}
+
+.headerMenu a:hover {
+    border: solid 1px navy;
+}
