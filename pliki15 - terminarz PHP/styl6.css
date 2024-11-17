@@ -1,0 +1,51 @@
+* {
+    font-family: verdana;
+}
+
+.header1 {
+    background-color: #6F79A8;
+    color: #fff;
+    height: 140px;
+    width: 30%;
+    float: left;
+}
+
+.header2 {
+    background-color: #6F79A8;
+    color: #fff;
+    height: 140px;
+    width: 70%;
+    float: right;
+}
+
+.calendar {
+    background-color: #9fa8da;
+    width: 160px;
+    height: 85px;
+    margin: 5px;
+    border: solid 1px #6F79A8;
+    overflow: hidden;
+    float: left;
+}
+
+.calendar:hover {
+    background-color: #6F79A8;
+    color: #fff;
+}
+
+.footer {
+    background-color: #6F79A8;
+    color: #fff;
+    padding: 5px;
+    text-align: right;
+}
+
+h6 {
+    text-align: center;
+}
+
+.main {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}

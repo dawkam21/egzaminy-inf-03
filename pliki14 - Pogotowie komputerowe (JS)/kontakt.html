@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Komputery</title>
+        <link rel="stylesheet" href="styl.css">
+        <link rel="icon" href="materialy2/favicon.png" />
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <section class="container">
+            <section class="header">
+                <img src="materialy2/animacja.gif" alt="Pogotowie komputerowe">
+            </section>
+            <section class="menu">
+                <a href="index.html">Strona Główna</a>
+                <a href="kontakt.html">Kontakt</a>
+            </section>
+            <section class="main1"></section>
+            <section class="main2">
+                <h2>Kontakt</h2>
+                <form>
+                    <table>
+                        <tr>
+                            <td>Imię: </td>
+                            <td><input type="text" name="" id="name"></td>
+                        </tr>
+                        <tr>
+                            <td>Nazwisko: </td>
+                            <td><input type="text" name="" id="lastName"></td>
+                        </tr>
+                        <tr>
+                            <td>E-mail: </td>
+                            <td><input type="email" name="" id="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Zgłoszenie: </td>
+                            <td>
+                                <select id="service">
+                                    <option value="naprawa komputerów">naprawa komputerów</option>
+                                    <option value="odzyskiwanie danych">odzyskiwanie danych</option>
+                                    <option value="wirusy">wirusy</option>
+                                    <option value="konfiguracja LAN">konfiguracja LAN</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="checkbox" name="" id="check" checked> Wyślij kopię wiadomości</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="reset">Czyść</button> <button type="button" onclick="f1()">Wyślij</button></td>
+                        </tr>
+                    </table>
+                </form>
+            <hr>
+            <p id="res"></p>
+        </section>
+        <section class="main3"></section>
+        <section class="footer">
+            Autor: <i>XXXXXXXXXXXX</i>
+        </section>
+    </section>
+</body>
+</html>

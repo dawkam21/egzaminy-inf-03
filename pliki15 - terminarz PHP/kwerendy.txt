@@ -1,0 +1,6 @@
+kw1 - SELECT DISTINCT zadania.wpis FROM zadania WHERE
+    zadania.dataZadania >= '2020-07-01' AND zadania.dataZadania <= '2020-07-07'
+    AND zadania.wpis != '' AND zadania.wpis IS NOT NULL;
+kw2 - SELECT dataZadania, wpis FROM zadania WHERE miesiac = 'lipiec';
+kw3 - SELECT miesiac, wpis FROM zadania WHERE wpis LIKE 'S%';
+kw4 - UPDATE zadania SET wpis = 'Wycieczka nad morze' WHERE dataZadania = '2020-07-18';
