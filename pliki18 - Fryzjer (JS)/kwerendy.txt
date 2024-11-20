@@ -1,0 +1,4 @@
+kw1 - SELECT kadra.imie, kadra.nazwisko, kadra.stanowisko FROM kadra WHERE kadra.stanowisko = 'fryzjer' OR kadra.stanowisko = 'stylista';
+kw2 - SELECT count(uslugi.rodzaj) as 'liczba_uslug', floor(uslugi.cena) as 'najw_cena' FROM uslugi WHERE uslugi.rodzaj = 2;
+kw3 - SELECT uslugi.nazwa, kadra.imie FROM uslugi JOIN kadra ON uslugi.kadra_id = kadra.id WHERE uslugi.rodzaj = 2 OR uslugi.rodzaj = 3;
+kw4 - ALTER TABLE uslugi ADD COLUMN `opinia` text;
