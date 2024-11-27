@@ -1,0 +1,4 @@
+kw1 - SELECT cena, pojemnosc FROM `farby` WHERE kolor = "czerwony";
+kw2 - 
+kw3 - SELECT farby.kolor, malowanie.liczba_puszek FROM farby JOIN malowanie ON malowanie.id_farby = farby.id_farby WHERE malowanie.id_pomieszczenia = '3';
+kw4 - 
