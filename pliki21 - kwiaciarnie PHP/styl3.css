@@ -1,0 +1,53 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #c75b39;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #c75b39;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.leftBlock {
+    background-color: #ff8a65;
+    width: 25%;
+    height: 500px;
+    padding-top: 50px;
+    float: left;
+}
+
+.rightBlock {
+    background-color: snow;
+    width: 75%;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+    float: left;
+}
+
+img {
+    width: 25%;
+    margin: 10px;
+    box-shadow: 15px 15px 10px dimgray;
+}
+
+li {
+    margin: 5px;
+}
+
+li::marker {
+    color: snow;
+}
+
+h3 {
+    margin: 50px 0;
+}
