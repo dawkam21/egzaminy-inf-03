@@ -1,0 +1,47 @@
+* {
+    font-family: tahoma;
+}
+
+header {
+    background-color: #7da453;
+    color: #fff;
+    height: 120px;
+}
+
+.header1, .header2 {
+    width: 40%;
+    float: left;
+}
+
+.header3 {
+    width: 20%;
+    float: left;
+}
+
+.calendar {
+    background-color: #aed581;
+    width: 200px;
+    height: 100px;
+    margin: 7px;
+    border: 1px solid #7da453;
+}
+
+footer {
+    background-color: #7da453;
+    color: #fff;
+    padding: 5px;
+}
+
+h5 {
+    text-align: center;
+}
+
+form {
+    padding-top: 50px;
+}
+
+main {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
